@@ -3,4 +3,8 @@ docker-zookeeper
 
 Builds a docker image for Zookeeper.
 
-```docker build -t <user>/zookeeper:3.4.13 .```
+```
+git clone https://github.com/raunaqness/zookeeper-standalone-docker.git
+cd zookeeper-standalone-docker
+docker build -t zookeeper-standalone:latest .
+```
